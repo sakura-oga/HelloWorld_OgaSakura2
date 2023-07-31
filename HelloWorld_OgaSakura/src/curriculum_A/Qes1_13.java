@@ -3,270 +3,125 @@ package curriculum_A;
 public class Qes1_13 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-		// バイト型を定義し初期値を代入
-		byte myByte = 10;
-		// 短整数型を定義し初期値を代入
-		short myShort = 1000;
-		// 整数型を定義し初期値を代入
-		int myInt = 2000000;
-		// 長整数型を定義し初期値を代入
-		long myLong = 3000000000L;
-		// 単精度浮動小数点数型を定義し初期値を代入
-		float myFloat = 3.14f;
-		// 倍精度浮動小数点数型を定義し初期値を代入
-		double myDouble = 3.14159;
-		// 文字型を定義し初期値を代入
-		char myChar = 'A';
-		// 文字列型を定義し初期値を代入
-		String myString = "Hello";
-		// ブーリアン型を定義し初期値を代入
-		boolean myBoolean = true;
+		// TODO 1 ローカル変数の宣言
+		byte myByte; // バイト型
+		short myShort; // 短整数型
+		int myInt; // 整数型
+		long myLong; // 長整数型
+		float myFloat; // 単精度浮動小数点数型
+		double myDouble; // 倍精度浮動小数点数型
+		char myChar; // 文字型
+		String myString; // 文字列型
+		boolean myBoolean; // ブーリアン型
 		
 		
-		// バイト型に値を代入
-		myByte = 10;
-		// 短整数型に値を代入
-		myShort = 100;
-		// 整数型に値を代入
-		myInt = 1000;
-		// 長整数型に値を代入
-		myLong = 10000;
-		// 単精度浮動小数点数型に値を代入
-		myFloat = 9.5f;
-		// 倍精度浮動小数点数型に値を代入
-		myDouble = 10.5;
-		// 文字型に値を代入S
-		myChar = 'a';
-		// 文字列型に値を代入
-		myString = "ハロー";
-		// ブーリアン型に値を代入
-		myBoolean = true;
+		// TODO 2 ローカル変数の初期値
+		myByte = 0; // バイト型
+		myShort = 0; // 短整数型
+		myInt = 0; // 整数型
+		myLong = 0L; // 長整数型
+		myFloat = 0.0F; // 単精度浮動小数点数型
+		myDouble = 0.0; // 倍精度浮動小数点数型
+		myChar = '\u0000'; // 文字型
+		myString = null; // 文字列型
+		myBoolean = false; // ブーリアン型
 		
-		// 11110を出力。
-		// 変数の定義	
-		myByte = 11;
-		myShort = 110;
-		myInt = 10000;
-		myLong = 0;
-		// 定義したものを出力
-		long result = myByte + myShort + myInt + myLong;
-		System.out.println(result);
-
-		// 20を出力。
-		// 変数の定義	
-		myByte = 1;
-		myShort = 2;
-		myInt = 3;
-		myLong = 14;
-		// 定義したものを出力
-		result = myByte + myShort + myInt + myLong;
-		System.out.println(result);
 		
-		// a ハロー trueを出力。
-		// 変数の定義
-		myByte = 97;
-		myShort = 0;
-		myInt = 0;
-		myLong = 0;
-		myChar = (char) myByte;
-		myString = "ハロー";
-		myBoolean = true;
-		// 定義したものを出力
-		System.out.println(myChar + " " + myString + " " + myBoolean);
+		// TODO 3 値の代入 
+		myByte = 10; // バイト型
+		myShort = 100; // 短整数型
+		myInt = 1000; // 整数型
+		myLong = 10000; // 長整数型
+		myFloat = 9.5f; // 単精度浮動小数点数型
+		myDouble = 10.5; // 倍精度浮動小数点数型
+		myChar = 'a'; // 文字型
+		myString = "ハロー"; // 文字列型
+		myBoolean = true; // ブーリアン型
+		
+		
+		// TODO 4 
+		System.out.println(myByte + myShort + myInt + myLong); // 11110を出力
+		System.out.println(2 * myByte); // 20を出力
+		System.out.println(myChar + myString + myBoolean); // a ハロー trueを出力
+		System.out.println(myByte + myShort + myInt + myLong + 2 * myByte); // 11130を出力
+		System.out.println(myByte * myShort * myInt * myLong); // 10000000000を出力
+		System.out.println(myDouble / myShort); // 0.105を出力
+		System.out.println(myByte - myShort); // -90を出力
         
-		// 11130を出力
-		// 変数の定義
-		myByte = 11;
-		myShort = 110;
-		myInt = 10000;
-		myLong = 9;
-		// 定義したものを出力
-		result = myByte * 1000 + myShort + myInt + myLong;
-		System.out.println(result);
-		
-		// 10000000000を出力。
-		// 変数の定義
-		myByte = 0;
-		myShort = 0;
-		myInt = 0;
-		myLong = 10000000000L;
-		// 定義したものを出力
-		System.out.println(myLong);
-		
-		// 0.105を出力。
-		// 変数の定義
-		myByte = 0;
-		myShort = 0;
-		myInt = 0;
-		myLong = 0;
-		myFloat = 0.105f;
-		// 定義したものを出力
-		System.out.println(myFloat);
-		
-		// -90を出力。
-		// 変数の定義
-		myByte = 0;
-		myShort = 0;
-		myInt = 0;
-		myLong = 0;
-		myFloat = 0;
-		myDouble = -90.0;
-		// 定義したものを出力
-		System.out.println(myDouble);
-        
-        //ハローJAVA43と出力したい
-		String num = "20";
+        // TODO 5 ハローJAVA43と出力したい
+		int num = 20; // 20を文字列として判断されないようにint型に置き換える
 		int num1 = 23;
-		System.out.println("ハローJAVA" + (num + String.valueOf(num1)));
+		System.out.println("ハローJAVA" + (num + num1));
 
 		
-		// 問7 自己紹介1
+		// TODO 6 山田太郎 18歳 170.5cm 62.2kg 寿司 と出力
         String name = "山田太郎";
         int age = 18;
         double height = 170.5;
         double weight = 62.2;
         String favoriteFood = "寿司";
-
-        // 自己紹介1を出力
         System.out.println("初めまして" + name + "です。");
         System.out.println("年齢は" + age + "歳です。");
         System.out.println("身長は" + height + "cmです。");
         System.out.println("体重は" + weight + "kgです。");
         System.out.println("好きな食べ物は" + favoriteFood + "です。");
 
-        // BMIの計算
-        double bmi = weight / ((height / 100) * (height / 100));
-
-        // BMIを出力
+        
+        // TODO 7 作成した自己紹介に続いてBMIが出力されるように
+        double bmi = weight / Math.pow(height / 100, 2);
         System.out.println("BMIは" + String.format("%.1f", bmi) + "です");
 
         
-        // 問8 自己紹介2
+        // TODO 8 6で宣言した変数に再代入し出力
         name = "鈴木一郎";
         age = 24;
         height = 168.5;
         weight = 64.2;
         favoriteFood = "オムライス";
-
-        // 自己紹介2を出力
         System.out.println("初めまして" + name + "です");
         System.out.println("年齢は" + age + "歳です");
         System.out.println("身長は" + height + "cmです");
         System.out.println("体重は" + weight + "kgです");
         System.out.println("好きな食べ物は" + favoriteFood + "です");
+        bmi = weight / Math.pow(height / 100, 2);
+        System.out.println("BMIは" + String.format("%.1f", bmi) + "です");
 
-        // BMIの計算
-        bmi = weight / ((height / 100) * (height / 100));
-
-        // BMIを出力
+        
+        // TODO 9 8で使用した変数（年齢・身長・体重）の数値を和算で自己代入し出力
         System.out.println("BMIは" + String.format("%.2f", bmi) + "です");
-
-
-        // 問9 自己紹介3
-        name = "鈴木一郎";
-        age = 24;
-        height = 168.5;
-        weight = 64.2;
-        favoriteFood = "オムライス";
-
-        // 自己紹介3を出力
+        int ageSum = age + age;
+        double heightSum = height + height;
+        double weightSum = weight + weight;
         System.out.println("初めまして" + name + "です");
-        System.out.println("年齢は" + age + "歳です");
-        System.out.println("身長は" + height + "cmです");
-        System.out.println("体重は" + weight + "kgです");
+        System.out.println("年齢は" + ageSum + "歳です");
+        System.out.println("身長は" + heightSum + "cmです");
+        System.out.println("体重は" + weightSum + "kgです");
         System.out.println("好きな食べ物は" + favoriteFood + "です");
+        bmi = weightSum / Math.pow(heightSum / 100, 2);
+        System.out.println("BMIは" + String.format("%.1f", bmi) + "です");
 
-        // BMIの計算
-        bmi = weight / ((height / 100) * (height / 100));
-
-        // BMIを出力
-        System.out.println("BMIは" + String.format("%.2f", bmi) + "です");  
+        
+        // TODO 10 8で使用した年齢が25歳以上ならtrueと出力されるようにする
+        boolean isAbove25 = age >= 25;
+        System.out.println(isAbove25);
 	
         
-        // 問10
-        // 変数を定義
-        age = 24;
-        height = 168.5;
-        weight = 64.2;
-
-        age *= 2;
-        height *= 2;
-        weight *= 2;
-
-        name = "鈴木一郎";
-        favoriteFood = "オムライス";
-
-        double heightInMeter = height / 100.0;
-        bmi = weight / (heightInMeter * heightInMeter);
-
-        // 処理を実行
-        System.out.println("初めまして" + name + "です");
-        System.out.println("年齢は" + age + "歳です");
-        System.out.println("身長は" + height + "cmです");
-        System.out.println("体重は" + weight + "kgです");
-        System.out.println("好きな食べ物は" + favoriteFood + "です");
-        System.out.println("BMIは" + String.format("%.1f", bmi) + "です");
-
-		    
-        // 問11
-        // 変数を定義
-        age = 24;
-        height = 168.5;
-        weight = 64.2;
-
-        age *= 2;
-        height *= 2;
-        weight *= 2;
-
-        name = "鈴木一郎";
-        favoriteFood = "オムライス";
-
-        // BMIの計算
-        heightInMeter = height / 100.0;
-        bmi = weight / (heightInMeter * heightInMeter);
-
-        // 処理を実行
-        System.out.println("初めまして" + name + "です");
-        System.out.println("年齢は" + age + "歳です");
-        System.out.println("身長は" + height + "cmです");
-        System.out.println("体重は" + weight + "kgです");
-        System.out.println("好きな食べ物は" + favoriteFood + "です");
-        System.out.println("BMIは" + String.format("%.1f", bmi) + "です");
+        // TODO 11 型変換 文字型
+        String ageStr = String.valueOf(age);
+        String heightStr = String.valueOf(height);
+        String weightStr = String.valueOf(weight);
+        System.out.println(ageStr + heightStr + weightStr);
         
+        
+        // TODO 12 型変換 整数型
+        int ageInt = (int) age;
+        int heightInt = (int) height;
+        System.out.println(ageInt);
+        System.out.println(heightInt);
 		
-        // 問12のコード
-        // 変数を定義
-        age = 24;
-        height = 168.5;
-        weight = 64.2;
-
-        // 2倍に更新
-        age *= 2;
-        height *= 2;
-        weight *= 2;
-
-        name = "鈴木一郎";
-        favoriteFood = "オムライス";
-
-        bmi = weight / ((height / 100) * (height / 100));
-        boolean isOver25 = age >= 25;
-
-        // 処理を実行
-        System.out.println("初めまして" + name + "です");
-        System.out.println("年齢は" + age + "歳です");
-        System.out.println("身長は" + height + "cmです");
-        System.out.println("体重は" + weight + "kgです");
-        System.out.println("好きな食べ物は" + favoriteFood + "です");
-        System.out.println("BMIは" + String.format("%.2f", bmi) + "です");
-        System.out.println("25歳以上：" + isOver25);
-
-
-        // 問13
-        // 問13での処理を実行
-        boolean isTall = height >= 160.0;
-        System.out.println("身長160cm以上：" + String.valueOf(isTall));
-
         
+        // TODO 13 12で変換した年齢。身長で年齢が25もしくは身長が160以上であればtrueと出力
+        boolean check = ageInt == 25 || heightInt >= 160;
+        System.out.println(check);
 	}
 }
