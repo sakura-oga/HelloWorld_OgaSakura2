@@ -115,6 +115,7 @@ public class Qes1_13 {
 		System.out.println(myDouble / myShort); 
 		
 		// -90を出力
+		myByte = 10;
 		System.out.println(myByte - myShort); 
         
 		
