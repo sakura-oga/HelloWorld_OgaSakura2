@@ -75,7 +75,7 @@ public class Qes1_13 {
 		myInt = 1000; 
 		
 		// 長整数型
-		myLong = 10000L; 
+		myLong = 10000; 
 		
 		// 単精度浮動小数点数型
 		myFloat = 9.5f; 
@@ -106,7 +106,8 @@ public class Qes1_13 {
 		System.out.println(myChar + myString + myBoolean); 
 		
 		// 11130を出力
-		System.out.println(myByte + myShort + myInt + myLong + myByte); 
+		myByte = 10;
+		System.out.println(myByte + myShort + myInt + myLong + myFloat + myDouble); 
 		
 		// 10000000000を出力
 		System.out.println(myByte * myShort * myInt * myLong); 
@@ -115,7 +116,6 @@ public class Qes1_13 {
 		System.out.println(myDouble / myShort); 
 		
 		// -90を出力
-		myByte = 10;
 		System.out.println(myByte - myShort); 
         
 		
